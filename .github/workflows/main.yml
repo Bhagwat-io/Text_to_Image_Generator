@@ -17,6 +17,6 @@ jobs:
 
       - name: Push to Hugging Face
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: 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
         run: git push --force https://huggingface.co/spaces/BhagwatK/Text_to_Image_Generator main
 
